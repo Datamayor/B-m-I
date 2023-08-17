@@ -19,6 +19,17 @@ text-align: center;
 margin: auto;
 width: 100%;
 }
+
+body > section.first > div > header > nav > button > span > img{
+    width: 16px;
+}
+
+#navbarSupportedContent > ul{
+float: right;
+}
+body > section.first > div > header > nav > button{
+    color: white;
+}
 body > section.techs > ul > li{
     font-family: Figtree;
     font-size: 2.625rem;
@@ -310,4 +321,11 @@ footer{
     a img[src*="letlogo"]{
         height: 22px;
     }
+}
+
+@media screen and (max-width: 991px) {
+    #navbarSupportedContent{
+        padding-top: 2rem;
+    }
+
 }

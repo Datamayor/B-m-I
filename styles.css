@@ -715,6 +715,9 @@ footer{
 }
 
 
-@media screen and (max-width: 554px) {
+@media screen and (max-width: 991px) {
+        #navbarSupportedContent{
+            padding-top: 2rem;
+        }
 
 }

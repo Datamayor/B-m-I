@@ -18,6 +18,17 @@ h2{
     line-height: 3.125rem;
     color: #FFFFFF;
 }
+
+body > section.first > div > header > nav > button > span > img{
+    width: 16px;
+}
+
+#navbarSupportedContent > ul{
+float: right;
+}
+body > section.first > div > header > nav > button{
+    color: white;
+}
 h3{
     font-family: Figtree;
     font-weight: 400;
@@ -331,4 +342,11 @@ footer{
 
 
     
+}
+
+@media screen and (max-width: 991px) {
+    #navbarSupportedContent{
+        padding-top: 2rem;
+    }
+
 }
